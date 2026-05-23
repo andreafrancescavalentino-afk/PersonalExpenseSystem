@@ -2,6 +2,7 @@
 
 Progetto C++ console per la gestione di spese personali e budget usando MySQL Server.
 
+
 ## Apertura progetto
 
 Aprire con Visual Studio:
