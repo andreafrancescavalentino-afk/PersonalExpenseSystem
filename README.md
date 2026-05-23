@@ -97,8 +97,8 @@ inserendo la password reale di MySQL.
 ```text
 PersonalExpenseSystem/
 
-├── Docs/
-│   └── README.md
+├── README.md
+│   
 │   
 ├── Source Files/
 │   ├── Database.cpp
@@ -133,13 +133,12 @@ CTRL + F5
 
 ---
 
-# Creazione automatica database
+# Creazione database
 
-All'avvio il programma:
 
-- crea automaticamente il database;
-- crea automaticamente le tabelle;
-- inserisce automaticamente dati di esempio.
+- lanciare su Mysql lo script "schema.sql" per creare il database e le tabelle;
+- lnciare su Mysql lo script "sample_data.sql" per valorizzare le tabelle con i dati di esempio;
+
 
 Gli script SQL usati sono:
 
